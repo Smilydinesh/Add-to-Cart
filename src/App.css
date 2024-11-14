@@ -1,0 +1,25 @@
+@media (min-width: 300px) {
+    .product{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 10px;
+    }
+}
+
+@media (min-width: 700px) {
+    .product{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin: 10px
+    }
+}
+
+@media (min-width: 900px) {
+    .product{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        margin: 10px;
+    }
+}
